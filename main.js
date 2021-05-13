@@ -45,3 +45,7 @@ const validation=(input)=>{
 }
 
 
+bill.addEventListener("click",()=>{
+    bill.classList.add("shake-animation");
+    setTimeout(checkInput, 1000);
+});
